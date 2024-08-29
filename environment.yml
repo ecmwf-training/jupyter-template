@@ -1,9 +1,9 @@
 dependencies:
-  - numpy
+
+  - mystmd
   - cdsapi
-  - pandas
+  - numpy
   - netCDF4
-  - dask
   - xarray
   - matplotlib
   - cartopy
