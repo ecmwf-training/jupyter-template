@@ -13,4 +13,4 @@ Use coloured cells, icons, etc. where needed.
 Any images unique to the Jupyter notebook should be stored in the ./img folder in this repository. Any images needed across multiple notebooks in multiple repositories (such as logolines) should be linked to elsewhere.
 
 ### Use of data
-Data files should not be stored in the Github repository.
+Data files should not be stored in the Github repository, but hosted externally and linked to, or downloaded from original source (CDS and ADS).
