@@ -5,7 +5,7 @@ This is a template repository for Jupyter based training material.
 
 ### Keep headings consistent
 - Keep headings in separate cells
-- use # for first level headings, ## for second level, and so on. Do not skip a level (e.g. do not follow a 1st level heading with a third level, without a second level in between).
+- Use # for first level headings, ## for second level, and so on. Do not skip a level (e.g. do not follow a 1st level heading with a third level, without a second level in between).
 ### Make use of MyST markdown
 Use coloured cells, icons, etc. where needed.
 
