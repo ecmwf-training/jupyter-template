@@ -3,6 +3,9 @@ This is a template repository for Jupyter based training material.
 
 ## Best practices for Jupyter notebooks
 
+### Keep notebooks short
+Focus on one topic / visualisation / processing routine. Consider separate notebooks if multiple parts or topics are included.
+
 ### Keep headings consistent
 - Keep headings in separate cells
 - Use # for first level headings, ## for second level, and so on. Do not skip a level (e.g. do not follow a 1st level heading with a third level, without a second level in between).
