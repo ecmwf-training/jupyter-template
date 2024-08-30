@@ -1,6 +1,5 @@
 dependencies:
 
-  - mystmd
   - cdsapi
   - numpy
   - netCDF4
