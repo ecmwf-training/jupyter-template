@@ -1,6 +1,10 @@
 # jupyter-template
 This is a template repository for Jupyter based training material.
 
+It includes a template Jupyter notebook and a template Jupyterbook landing page.
+
+The metadata-schema to apply to the notebooks can be found here: https://github.com/ecmwf-training/jn-metadata-schema
+
 ## Best practices for Jupyter notebooks
 
 ### Keep notebooks short
