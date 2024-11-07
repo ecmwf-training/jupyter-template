@@ -1,30 +1,39 @@
-# jupyter-template
-This is a template repository for Jupyter based training material.
+# ECMWF Jupyter based learning resource templates
+This repository contains guides to facilitate development and maintenance of ECMWF Jupyter based learning resources. It includes the following templates:
 
-It includes a template Jupyter notebook and a template Jupyterbook landing page.
+- A template repository, which hosts notebooks, or a collection of similar notebooks
+- A template Jupyter notebook based learning resource, such as a tutorial, example workflow, or similar.
+- A template Jupyterbook landing page to access and render one or more Jupyter notebooks
 
-The metadata-schema to apply to the notebooks can be found here: https://github.com/ecmwf-training/jn-metadata-schema
+## Template repository
 
-It includes github-actions which will automatically build a develop version of the Jupyter Book that can be used for review purposes.
+This repository is itself a Github template. A new repository can be created from this by simply selecting the green `Use this template` icon on the top right. Create a repository from this template for Jupyter notebooks you plan to develop training purposes at ECMWF.
 
 The default branch for this repository is **develop**, and this branch is used to deploy the review/development version of the JupyterBook. The **main** branch is reserved for published content and will be maintained by ECMWF.
 
-## Best practices for Jupyter notebooks
+The repository includes github-actions which will automatically build a develop version of the Jupyter Book that can be used for review purposes.
 
-### Keep notebooks short
+## Template Jupyter notebook
+
+This repository contains a [Jupyter notebook template](https://github.com/ecmwf-training/jupyter-template/blob/develop/jupyter-notebook-template.ipynb), which provides a suggested structure for Jupyter based ECMWF learning resources. It also includes metadata to be applied at the notebook level and at the cell level according to a metadata-schema described here: https://github.com/ecmwf-training/jn-metadata-schema.
+
+### Best practices for Jupyter notebooks
+
+#### Keep notebooks short
 Focus on one topic / visualisation / processing routine. Consider separate notebooks if multiple parts or topics are included.
 
-### Keep headings consistent
+#### Keep headings consistent
 - Keep headings in separate cells
 - Use # for first level headings, ## for second level, and so on. Do not skip a level (e.g. do not follow a 1st level heading with a third level, without a second level in between).
-### Make use of MyST markdown
+
+#### Make use of MyST markdown
 Use coloured cells, icons, etc. where needed.
 
-### Use of images
-Any images unique to the Jupyter notebook should be stored in the ./img folder in this repository. Any images needed across multiple notebooks in multiple repositories (such as logolines) should be linked to elsewhere.
+#### Use of images
+Any images unique to the Jupyter notebook should be stored in the ./img folder in this repository. Any images needed across multiple notebooks in multiple repositories (such as logolines) should be uploaded to a dedicated repository for training hosted at https://sites.ecmwf.int/training/ (please contact chris.stewart@ecmwf.int).
 
 ### Use of data
-Data files should not be stored in the Github repository, but hosted externally and linked to, or downloaded from original source (CDS and ADS).
+Data files should not be stored in the Github repository, but hosted externally and linked to, or downloaded from original source (e.g. CDS/ADS).
 
 
 ## Jupyterbook Build instructions
