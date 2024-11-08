@@ -30,7 +30,7 @@ Focus on one topic / visualisation / processing routine. Consider separate noteb
 Use coloured cells, icons, etc. where needed.
 
 #### Use of images
-Any images unique to the Jupyter notebook should be stored in the ./img folder in this repository. Any images needed across multiple notebooks in multiple repositories (such as logolines) should be uploaded to a dedicated repository for training hosted at https://sites.ecmwf.int/training/ (please contact chris.stewart@ecmwf.int).
+Any images unique to the Jupyter notebook should be stored in the ./img folder in this repository. Any images needed across multiple notebooks in multiple repositories (such as logolines) should be sourced from an external URL (see for example links to ECMWF and Copernicus logos here https://climate.copernicus.eu/branding-guidelines#Logolines). Images not already online can be uploaded to a dedicated repository for training hosted at https://sites.ecmwf.int/training/ (please contact chris.stewart@ecmwf.int).
 
 ### Use of data
 Data files should not be stored in the Github repository, but hosted externally and linked to, or downloaded from original source (e.g. CDS/ADS).
