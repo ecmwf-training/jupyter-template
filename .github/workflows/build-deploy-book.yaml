@@ -1,15 +1,13 @@
 name: build-deploy-book
 
-# Only run this when the default branch changes, it is possible to hardcode the branch name
+# Only run this when the main branch changes
 on:
   push:
     branches:
-    - '${{ github.event.repository.default_branch }}'
-    # - 'main'
+    - 'develop'
   pull_request:
     branches:
-    - '${{ github.event.repository.default_branch }}'
-    # - 'main'
+    - 'develop'
 
   # Allow workflow to be dispatched on demand
   workflow_dispatch:
@@ -38,6 +36,14 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r ci/requirements.txt
+
+    # # Testing
+    # - name: Detect and configure production environment
+    #   if: github.repository == 'CLIMAAX/crabook'
+    #   run: |
+    #     echo "Repository: ${{github.repository}}"
+    #     echo "Substituting production ToC"
+    #     mv crabook/_toc_prod.yml crabook/_toc.yml
 
     # Build the book
     - name: Build the book
