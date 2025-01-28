@@ -1,2 +1,0 @@
-jupyterlab-myst
-jupyter-book
